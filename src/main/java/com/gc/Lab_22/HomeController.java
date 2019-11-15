@@ -25,6 +25,11 @@ public class HomeController {
 		mv.addObject("welcome","Hello " + p.getFirstName() + " " + p.getLastName() + "! Thank you for registering");
 		mv.addObject("email", "Email: " + p.getEmail());
 		mv.addObject("number", "Phone Number: " + p.getPhoneNumber());
+		mv.addObject("branch", "We are looking forward to seeing you next time at our " + p.getBranch() + " branch!");
+		if (p.isNewsletter()) {
+			mv.addObject("newsletter", "Anticipate receiving our newsletter every day from now until the end of time! :)");
+		}
+		
 		return mv;
 	}
 }

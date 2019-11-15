@@ -14,7 +14,11 @@
 <body>
 	<div class="jumbotron">
 		<h1>Welcome!</h1>
-		${welcome }<br> ${email }<br> ${number }
+		${welcome }<br> 
+		${email }<br> 
+		${number }<br>
+		${branch }<br>
+		${newsletter }<br>
 	</div>
 </body>
 </html>

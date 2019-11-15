@@ -38,16 +38,16 @@
 				Re-enter Password: <input type="password" value="" id="myInput1"
 					required><br>
 				<div class="form-group">
-					<select class="custom-select" id="dropdown">
+					<select class="custom-select" id="dropdown" name="branch">
 						<option>Select your local branch</option>
-						<option value="1">Detroit</option>
-						<option value="2">Holland</option>
-						<option value="3">Saugatuck</option>
+						<option value="Detroit">Detroit</option>
+						<option value="Holland">Holland</option>
+						<option value="Saugatuck">Saugatuck</option>
 					</select>
 				</div>
 				<div class="form-check">
 					<label class="form-check-label"> <input
-						class="form-check-input" type="checkbox">check here if you
+						class="form-check-input" type="checkbox" name="newsletter" value=true>check here if you
 						want to receive our weekly newsletter
 					</label>
 				</div>
