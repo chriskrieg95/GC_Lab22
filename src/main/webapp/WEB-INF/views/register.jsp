@@ -38,8 +38,8 @@
 				Re-enter Password: <input type="password" value="" id="myInput1"
 					required><br>
 				<div class="form-group">
-					<select class="custom-select" id="dropdown" name="branch">
-						<option>Select your local branch</option>
+					<select required class="custom-select" id="dropdown" name="branch">
+						<option value="">Select your local branch</option>
 						<option value="Detroit">Detroit</option>
 						<option value="Holland">Holland</option>
 						<option value="Saugatuck">Saugatuck</option>

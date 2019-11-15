@@ -27,7 +27,7 @@ public class HomeController {
 		mv.addObject("number", "Phone Number: " + p.getPhoneNumber());
 		mv.addObject("branch", "We are looking forward to seeing you next time at our " + p.getBranch() + " branch!");
 		if (p.isNewsletter()) {
-			mv.addObject("newsletter", "Anticipate receiving our newsletter every day from now until the end of time! :)");
+			mv.addObject("newsletter", "Anticipate receiving our newsletter every day from now " + "<span style='font-size:400%' >" + "until the end of time! :)" + "</span");
 		}
 		
 		return mv;
