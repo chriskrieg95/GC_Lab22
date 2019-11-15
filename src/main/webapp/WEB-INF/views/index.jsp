@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +12,9 @@
 	crossorigin="anonymous">
 </head>
 <body>
-	<h1>Welcome to GC Coffee</h1>
-	<a class="btn-primary" href="/register">Register Now!</a>
+	<div class="jumbotron">
+		<h1>Welcome to GC Coffee</h1>
+		<a class="btn-primary" href="/register">Register Now!</a>
+	</div>
 </body>
 </html>
