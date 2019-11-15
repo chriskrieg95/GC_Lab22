@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				Email: <input type="text" name="email" id="email" required><br>
-				Phone Number: <input type="text" name="phoneNumber" required><br>
+				Phone Number: <input type="tel" id="phone" name="phoneNumber" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br>
 				Password: <input type="password" value="" id="myInput" required><br>
 				<div class="form-check">
 					<label class="form-check-label"> <input
